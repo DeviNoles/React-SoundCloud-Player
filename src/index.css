@@ -1,0 +1,35 @@
+body {
+  background-color: #f1f1f1;
+}
+
+input {
+  height: 40px;
+  border: solid 1px #e1e1e1;
+  background-color: #f1f1f1;
+  outline: none !important;;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #3c3c3c;
+}
+
+a{
+  color: #ff6600;
+  font-size: 20px;
+}
+a:hover{
+  color: #ff6600;
+}
+a:focus{
+  color: #ff6600;
+}
+
+
+iframe{
+  margin: 20px 0 20px 0;
+}
+
+.widget{
+  padding-right: 0;
+  margin-top: 30px;
+}
+
