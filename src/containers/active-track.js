@@ -10,7 +10,7 @@ class ActiveTrack extends Component {
     render() {
         let url = "https://w.soundcloud.com/player/?url=" + this.props.track.uri + "&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
 
-
+        console.log('TRACK URI IS' + this.props.track.uri)
 
         if ( _.isEmpty(this.props.track) ) {
             return null

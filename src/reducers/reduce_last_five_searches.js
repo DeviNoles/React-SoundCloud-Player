@@ -12,10 +12,8 @@ if(LS){
 export default function (state=LS, action) {
     switch (action.type){
         case SAVE_NEW_SEARCH :
-            return [
-                ...action.payload
-            ];
+            return [...action.payload]; //save new search into array. if i were to do return [...state, action.payload] it will combine the searches
         default :
-            return state;
+            return state; //return searches with no new data
     }
 }

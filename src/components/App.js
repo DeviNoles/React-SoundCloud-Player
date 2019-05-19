@@ -13,7 +13,7 @@ class App extends Component {
     }
 
     getSelectedSearch = (search) =>{
-        console.log("App", search);
+        console.log("GET SELECTED SEARCH", search);
         this.setState({onCheckLastSearch: search});
     }
 
@@ -33,5 +33,3 @@ class App extends Component {
 }
 
 export default App;
-
-

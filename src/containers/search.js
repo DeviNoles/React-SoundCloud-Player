@@ -27,6 +27,7 @@ class Search extends Component {
     }
 
     handleChange(event) {
+      console.log('EVENT TARGET VALUE IS' + event.target.value)
         this.setState({value: event.target.value});
     }
 
@@ -63,4 +64,3 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, {getTtrackList, lastFiveSearches})(Search);
-
